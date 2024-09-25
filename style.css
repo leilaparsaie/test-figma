@@ -1,0 +1,151 @@
+/* menu */
+
+.container-costum{
+    width: 1280px;
+    height: 720px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(255, 241, 227, 0) 82.08%,
+     rgba(227, 255, 248, 0.38) 100%);
+    margin: 0 auto; 
+}
+
+.logo{
+    width: 106.587px;
+    height: 22px;
+    flex-shrink: 0;
+    color: #89C5CC;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 118.182% */
+}
+.menu{
+    float: right;
+    display:block;
+    color: var(--1f1534-hyfen, #1f1534b2);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.menu a{
+    padding: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-60{
+    margin-top: 50px;
+}
+.active{
+    color:#1F1534;
+}
+/* header */
+
+.img-header{
+    width: 520px;
+    height: 515.207px;
+    flex-shrink: 0;
+    fill: #000;
+    float: right;
+}
+
+.page-header{
+    top: 200px;
+    left: 120px;
+    height: 144px;
+    width: 560px;
+    color: #000;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px */
+    text-transform: uppercase;
+}
+.page-header-exclusive{
+        color: #89C5CC;
+        font-family: Mulish;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        text-transform: uppercase;
+}
+.title-header{
+  color: #7D7987; 
+  width: 448px;
+  height: 78px;
+  top: 360px;
+  left: 120px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  
+}
+.title-header-exclusive{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    text-align: left;
+    
+}
+.btn-header{
+    display: inline-flex;
+    height: 56px;
+    padding: 14px 32px 15px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--Primary-color, #69B99D);
+    outline: none !important;
+    border: none;
+}
+.logo-whatsapp{
+    width: 24px;
+    height: 24px;
+}
+.title-btn-header{
+    color: var(--Background-1, #F9F9F9);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* footer */
+
+.title-footer{
+    width: 592px;
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+.title-footer a{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+.img-footer{
+    width: 98.394px;
+    height: 88.001px;
+    flex-shrink: 0;
+    opacity: 0.3;
+    color:#89C5CC;
+    float: right;
+}
